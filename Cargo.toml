@@ -62,6 +62,10 @@ tokio-runtime = ["tokio", "async-tungstenite/tokio-runtime"]
 fetcher = []
 bytes = ["dep:bytes"]
 serde0 = []
+tungstenite-tokio-native-tls = ["async-tungstenite/tokio-native-tls"]
+tungstenite-tokio-rustls-manual-roots = ["async-tungstenite/tokio-rustls-manual-roots"]
+tungstenite-tokio-rustls-webpki-roots = ["async-tungstenite/tokio-rustls-webpki-roots"]
+tungstenite-tokio-rustls-native-certs = ["async-tungstenite/tokio-rustls-native-certs"]
 
 # Temporary features until cargo weak dependencies bug is fixed
 # See https://github.com/rust-lang/cargo/issues/10801
